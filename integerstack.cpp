@@ -68,24 +68,7 @@ public:
         return stacksize;
     }
 };
-//the main block here has some tests for the stack;
 int main()
 {
-    IntStack i = IntStack();
-    try {
-        i.push(1);
-        i.push(2);
-        i.push(3);
-        cout << i.size() << endl;
-        cout << i.pop() << endl;
-        cout << i.peek() << endl;
-        cout << i.size() << endl;
-        cout << i.pop() << endl;
-        cout << i.pop() << endl;
-        cout << i.size() << endl;
-        cout << i.pop() << endl;
-    }
-    catch (const exception& e) {
-        cerr << "Error: " << e.what() << endl;
-    }
+    //the tests are performed in test.cpp
 }
